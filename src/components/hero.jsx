@@ -1,20 +1,26 @@
-import Image from "next/image";
-import  background from "@/assest/images/jpg/image-01.jpg"
+
+import Image from "next/image"
+import background from "@/assest/image/jpg/image-1.jpg"
+import Styles from "@/styles/components/hero.module.css"
 
 
 
 
 
-const Hero = () => {
-    return(
+ const  Hero = () => {
+    return (
 
         <>
-           <h1>Plan.<br/>Manage.<br/>Build</h1>
-           <div>/</div>
-           <h3>Our Differences Is In The Finishing</h3>
-           <button>Work</button>
-           <Image src= {background} width={"3000"} height={"1000"} alt="hero image" />
+            <div className={Styles.wrapper}>
+                <h1 className={Styles.heroText}>Plan.<br/>Manage.<br/>Build</h1>
+                <div>/</div>
+                <h3>Our Difference Is In The Finishing</h3>
+                <button>Work</button>
+            </div>
+            
+            <Image className={Styles.heroImage} src = {background} width={3840} height={2160} alt="hero image" />
         </>
+
     );
 }
 
