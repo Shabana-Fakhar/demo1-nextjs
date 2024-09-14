@@ -4,7 +4,7 @@ import background from "@/assests/image/jpg/image-01.jpg"
 import Styles from "@/styles/components/hero.module.css"
 
 
-s
+
 
 
  const  Hero = () => {
