@@ -1,13 +1,13 @@
 import Image from "next/image"
-import Disney from "@/assest/logos/png/disney_logo.png"
-import DropBox from "@/assest/logos/png/dropbox_logo.png"
-import Monday from "@/assest/logos/png/monday_logo.png"
-import Ncr from "@/assest/logos/png/ncr_logo.png"
-import Rakuten from "@/assest/logos/png/rakuten_logo.png"
-import User01 from "@/assest/image/jpg/user-01.jpg"
-import User02 from "@/assest/image/jpg/user-02.jpg"
-import User03 from "@/assest/image/jpg/user-03.jpg"
-import User04 from "@/assest/image/jpg/user-04.jpg"
+import Disney from "@/assets/logos/png/disney_logo.png"
+import DropBox from "@/assets/logos/png/dropbox_logo.png"
+import Monday from "@/assets/logos/png/monday_logo.png"
+import Ncr from "@/assets/logos/png/ncr_logo.png"
+import Rakuten from "@/assets/logos/png/rakuten_logo.png"
+import User01 from "@/assets/image/jpg/user-01.jpg"
+import User02 from "@/assets/image/jpg/user-02.jpg"
+import User03 from "@/assets/image/jpg/user-03.jpg"
+import User04 from "@/assets/image/jpg/user-04.jpg"
 
 const Showcase = () => {
     return (

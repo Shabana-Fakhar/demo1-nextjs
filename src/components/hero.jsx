@@ -1,10 +1,10 @@
 
 import Image from "next/image"
-import background from "@/assest/image/jpg/image-1.jpg"
+import background from "@/assests/image/jpg/image-01.jpg"
 import Styles from "@/styles/components/hero.module.css"
 
 
-
+s
 
 
  const  Hero = () => {
